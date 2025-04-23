@@ -5,6 +5,9 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import graph_tool.all as gt
 
+#I'm mostly following what I learned in
+#Peskin & Schoeder's introductory section on Feynman Diagrams.
+
 λ = symbols('lambda')  # Define λ as a symbolic variable
 ϕ = symbols('phi')  # Define ϕ as a symbolic variable
 H_I_ϕ_pow = 4
